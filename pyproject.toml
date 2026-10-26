@@ -1,0 +1,21 @@
+[project]
+name = "ComfyUI-Prism-Pipeline"
+description = "Full VFX and animation production pipeline integration for studios and individuals. Manage assets and shots, version your ComfyUI workflows and automate the import and export of images, image-sequences, videos and 3D assets. Connect ComfyUI to other DCCs like Nuke, Blender, Maya, Houdini, Unreal Engine and many more."
+version = "1.0.0"
+license = { text = "LGPL-3.0-or-later" }
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/PrismPipeline/ComfyUI-Prism-Pipeline"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://prism-pipeline.com/docs/latest/plugins/comfyui/"
+"Bug Tracker" = "https://github.com/PrismPipeline/ComfyUI-Prism-Pipeline/issues"
+
+[tool.comfy]
+PublisherId = "prism-pipeline"
+DisplayName = "Prism Pipeline"
+Icon = "https://prism-pipeline.com/wp-content/uploads/prism-logos/prism-p-logo.png"
