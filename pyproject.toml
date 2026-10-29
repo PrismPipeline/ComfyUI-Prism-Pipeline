@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-Prism-Pipeline"
 description = "Full VFX and animation production pipeline integration for studios and individuals. Manage assets and shots, version your ComfyUI workflows and automate the import and export of images, image-sequences, videos and 3D assets. Connect ComfyUI to other DCCs like Nuke, Blender, Maya, Houdini, Unreal Engine and many more."
-version = "1.0.0"
+version = "1.0.1"
 license = { text = "LGPL-3.0-or-later" }
 requires-python = ">=3.9"
 dependencies = []
